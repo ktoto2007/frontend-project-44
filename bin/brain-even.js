@@ -21,7 +21,7 @@ const isEven = () => {
             return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}' \nLet's try again, ${userName}!`)
         }
     }
-    return console.log('Congratulations,', userName)
+    return console.log('Congratulations,' + userName)
 }
 console.log('Welcome to the Brain Games!')
 const userName = readlineSync.question('May I have your name?')
