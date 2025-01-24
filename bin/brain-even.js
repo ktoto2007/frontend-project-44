@@ -1,2 +1,2 @@
-import { evenGame } from "../src/even.js";
+import { evenGame } from "../games/even.js";
 evenGame()
