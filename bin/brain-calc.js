@@ -1,2 +1,3 @@
-import { calcGame } from "../games/calc.js";
-calcGame()
+import { calcGame } from '../games/calc.js';
+
+calcGame();
