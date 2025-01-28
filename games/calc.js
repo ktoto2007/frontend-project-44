@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
 import { getRandomInt } from '../src/index.js';
-
 export const calcGame = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?');
