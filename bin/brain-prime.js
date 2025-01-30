@@ -1,2 +1,2 @@
-import { primeGame } from "../bin/brain-prime.js";
+import { primeGame } from "../games/prime.js"
 primeGame()
