@@ -4,6 +4,7 @@ export const progressionGame = () => {
     console.log('Welcome to the Brain Games!');
     const userName = readlineSync.question('May I have your name?');
     console.log(`Hello, ${userName}!`);
+    console.log('What number is missing in the progression?')
     for (let i = 0; i <= 2; i += 1) {
         const firstNumber = getRandomInt(1, 5)
         const progressionLength = getRandomInt(5, 12)

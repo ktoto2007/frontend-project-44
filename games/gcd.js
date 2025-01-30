@@ -4,6 +4,7 @@ export const gcdGame = () => {
     console.log('Welcome to the Brain Games!');
     const userName = readlineSync.question('May I have your name?');
     console.log(`Hello, ${userName}!`);
+    console.log('Find the greatest common divisor of given numbers.')
     for (let i = 0; i <= 2; i += 1) {
         const number1 = getRandomInt(1, 100);
         const number2 = getRandomInt(1, 100);
