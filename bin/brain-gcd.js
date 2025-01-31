@@ -1,2 +1,4 @@
 import { gcdGame } from "../games/gcd.js";
-gcdGame()
+import { description } from "../games/gcd.js";
+import { logic } from '../src/index.js'
+logic(description, gcdGame)

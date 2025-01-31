@@ -1,2 +1,4 @@
 import { progressionGame } from "../games/progression.js";
-progressionGame()
+import { description } from "../games/progression.js";
+import { logic } from '../src/index.js'
+logic(description, progressionGame)

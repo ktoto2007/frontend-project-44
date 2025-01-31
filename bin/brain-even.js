@@ -1,3 +1,4 @@
 import { evenGame } from '../games/even.js';
-
-evenGame();
+import { description } from '../games/even.js';
+import { logic } from '../src/index.js';
+logic(description, evenGame)

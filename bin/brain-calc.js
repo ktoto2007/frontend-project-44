@@ -1,3 +1,4 @@
 import { calcGame } from '../games/calc.js';
-
-calcGame();
+import { description } from '../games/calc.js';
+import { logic } from '../src/index.js'
+logic(description, calcGame)
