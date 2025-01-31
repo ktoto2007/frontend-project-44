@@ -15,5 +15,5 @@ export const logic = (description, gameFunction) => {
             return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${game[1]}' \nLet's try again, ${userName}!`);
         }
     }
-    return console.log(`Congratulations,${userName}!`);
+    return console.log(`Congratulations, ${userName}!`);
 }
