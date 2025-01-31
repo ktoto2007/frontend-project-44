@@ -18,7 +18,7 @@ export const progressionGame = () => {
             count += progressionStep
         }
     }
-    const question = `Question ${progressionList.join(' ')}`
+    const question = `Question: ${progressionList.join(' ')}`
     return [question, correctAnswer]
 }
 export const description = 'What number is missing in the progression?'
