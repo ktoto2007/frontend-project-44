@@ -1,4 +1,4 @@
-import { getRandomInt } from '../src/utils.js';
+import getRandomInt from '../src/utils.js';
 
 export const calcGame = () => {
   const number1 = getRandomInt(0, 10);

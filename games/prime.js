@@ -1,4 +1,4 @@
-import { getRandomInt } from '../src/utils.js';
+import getRandomInt from '../src/utils.js';
 
 export const primeGame = () => {
   const randomNumber = getRandomInt(1, 100);

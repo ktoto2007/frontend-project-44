@@ -1,4 +1,4 @@
-import { getRandomInt } from '../src/utils.js';
+import getRandomInt from '../src/utils.js';
 
 export const gcdGame = () => {
   const number1 = getRandomInt(1, 100);

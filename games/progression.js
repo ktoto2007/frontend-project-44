@@ -1,4 +1,4 @@
-import { getRandomInt } from '../src/utils.js';
+import getRandomInt from '../src/utils.js';
 
 export const progressionGame = () => {
   const firstNumber = getRandomInt(1, 5);
