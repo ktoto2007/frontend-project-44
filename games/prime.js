@@ -1,7 +1,7 @@
 import getRandomInt from '../src/utils.js';
 
 export const primeGame = () => {
-  const randomNumber = getRandomInt(1, 100);
+  const randomNumber = getRandomInt(2, 100);
   let i = 2;
   let correctAnswer = 'yes';
   while (i < randomNumber) {
