@@ -12,7 +12,7 @@ export const gcdGame = () => {
     averageNumber = number2;
   } else { averageNumber = number1; }
   for (let i = 1; i <= Math.floor(averageNumber / 2); i += 1) {
-    if (number1 % i === 0 & number2 % i === 0) {
+    if (number1 % i === 0 && number2 % i === 0) {
       correctAnswer = i;
     }
   }
