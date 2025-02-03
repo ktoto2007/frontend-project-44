@@ -10,7 +10,7 @@ export const primeGame = () => {
         }
         i += 1
     }
-    const question = `Question ${randomNumber}`
+    const question = `Question: ${randomNumber}`
     return [question, correctAnswer]
 }
 export const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
