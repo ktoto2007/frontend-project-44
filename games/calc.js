@@ -1,4 +1,5 @@
 import { getRandomInt } from '../src/utils.js';
+
 export const calcGame = () => {
   const number1 = getRandomInt(0, 10);
   const number2 = getRandomInt(0, 10);
@@ -16,6 +17,6 @@ export const calcGame = () => {
     correctAnswer = number1 * number2;
     question = `Question: ${number1} * ${number2}`;
   }
-  return [question, String(correctAnswer)]
+  return [question, String(correctAnswer)];
 };
-export const description = 'What is the result of the expression?'
+export const description = 'What is the result of the expression?';
